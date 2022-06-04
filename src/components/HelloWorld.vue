@@ -18,6 +18,8 @@
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
   </p>
+
+  <slot :name="'foo'"></slot>
 </template>
 
 <preview msg="Hello Volar!"></preview>
